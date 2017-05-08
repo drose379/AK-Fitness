@@ -120,16 +120,23 @@ section {
 }
 #one-content #success-stories #story-container {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 #one-content #success-stories #story-container .story-item {
   flex-grow: 1;
-  flex-basis: 0;
+  flex-basis: 50em;
   margin: 1em;
   margin-left: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+#one-content #success-stories #story-container .story-item img {
+  max-width: 50%;
+  max-height: 50%;
+  background-color: green;
+  align-self: center;
 }
 #one-content #success-stories #story-container .story-item img:nth-child(2) {
   margin-left: 1em;
