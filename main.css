@@ -154,12 +154,12 @@ section {
 }
 .story-item h3 {
   margin-top: 0.5em;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .story-item p {
   font-family: 'Open Sans', sans-serif;
   text-align: justify;
-  width: 95%;
+  width: 85%;
 }
 #one-content #footer {
   display: flex;
@@ -207,7 +207,7 @@ section {
 #program-container h3 {
   margin: 0;
   padding: 0;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 #program-container p {
   font-family: 'Open Sans', sans-serif;
