@@ -25,7 +25,7 @@ nav h3:nth-child(4) {
 }
 
 section {
-  padding: 4em;
+  padding: 3em;
   transition: 1s;
   display: flex;
 }
@@ -66,12 +66,12 @@ section {
   position: relative;
   background: url( 'res/bg-one.jpeg' ) no-repeat center center fixed;
   z-index: 5000;
-  padding: 4em;
+  padding: 3em;
 }
 
 #one-content h1 {
   text-align: center;
-  font-size: 4em;
+  font-size: 3em;
   color: #ecf0f1;
   font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 1px;
@@ -194,7 +194,7 @@ section {
   margin-bottom: 0.5em;
   padding: 0;
   color: #3498db;
-  font-size: 4em;
+  font-size: 3em;
   font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 1px;
 }
