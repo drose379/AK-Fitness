@@ -100,7 +100,8 @@ section {
   background-color: #3498db;
   padding: 2em;
   display: flex;
-  width: 70%;
+  width: 60%;
+  height: 30%;
   flex-direction: column;
   justify-content: center;
   border: 3px solid rgba(0,0,0,0);
@@ -128,6 +129,7 @@ section {
   flex-grow: 1;
   flex-basis: 40vw;
   margin: 1em;
+  margin-bottom: 2em;
   margin-left: 0;
   display: flex;
   flex-direction: column;
@@ -154,7 +156,7 @@ section {
 .story-item p {
   font-family: 'Open Sans', sans-serif;
   text-align: justify;
-  width: 90%;
+  width: 95%;
 }
 #one-content #footer {
   display: flex;
@@ -206,7 +208,6 @@ section {
 }
 #program-container p {
   font-family: 'Open Sans', sans-serif;
-  width: 80%;
 }
 
 #program-container {
