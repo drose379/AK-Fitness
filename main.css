@@ -59,12 +59,15 @@ section {
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: 0.80;
+  opacity: 0.70;
   z-index: -1;
 }
 #one-content #bg-wrap {
   position: relative;
+  /*
   background: url( 'res/bg-one.jpeg' ) no-repeat center center fixed;
+  */
+  background: url( "https://static.pexels.com/photos/196464/pexels-photo-196464.jpeg" ) no-repeat center center fixed;
   z-index: 5000;
   padding: 3em;
 }
