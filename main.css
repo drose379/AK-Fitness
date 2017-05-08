@@ -112,6 +112,7 @@ section {
 
 #one-content #success-stories {
   padding: 4em;
+  flex-wrap: wrap;
 }
 #one-content #success-stories h1 {
   text-align: left;
@@ -125,7 +126,7 @@ section {
 }
 #one-content #success-stories #story-container .story-item {
   flex-grow: 1;
-  flex-basis: 50em;
+  flex-basis: 40vw;
   margin: 1em;
   margin-left: 0;
   display: flex;
