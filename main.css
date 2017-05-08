@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #ecf0f1;
+}
+
+h3 {
+  margin-left: 2em;
+  margin-right: 2em;
+  padding: 0.5em;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+nav h3:nth-child(4) {
+  margin-right: 4em;
+}
+
+section {
+  padding: 4em;
+  transition: 1s;
+  display: flex;
+}
+
+.section-gone {
+  display: none;
+}
+
+.nav-current {
+  color: #3498db;
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+#one-content {
+  flex-direction: column;
+  background-color: #ecf0f1;
+  padding: 0;
+}
+
+#bg-wrap::before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.80;
+  z-index: -1;
+}
+#one-content #bg-wrap {
+  position: relative;
+  background: url( 'res/bg-one.jpeg' ) no-repeat center center fixed;
+  z-index: 5000;
+  padding: 4em;
+}
+
+#one-content h1 {
+  text-align: center;
+  font-size: 4em;
+  color: #ecf0f1;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 1px;
+}
+#one-content .home-item {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
+  justify-content: center;
+  align-items: center;
+  padding: 4em;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+}
+#one-content .home-item:nth-child(1) {
+  align-items: flex-end;
+}
+#one-content .home-item:nth-child(2) {
+  align-items: flex-start;
+}
+#one-content .home-item h2,h4 {
+  text-align: center;
+  margin: 0;
+}
+#one-content .home-item .wrap {
+  background-color: #3498db;
+  padding: 2em;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid rgba(0,0,0,0);
+  cursor: pointer;
+}
+#one-content .home-item .wrap:hover {
+  border: 3px solid #ecf0f1;
+}
+
+#one-content #success-stories {
+  padding: 4em;
+}
+#one-content #success-stories h1 {
+  text-align: left;
+  margin: 0;
+  color: #3498db;
+}
+#one-content #success-stories #story-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+#one-content #success-stories #story-container .story-item {
+  flex-grow: 1;
+  flex-basis: 40%;
+  margin: 1em;
+  margin-bottom: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#one-content #success-stories #story-container .story-item img:nth-child(2) {
+  margin-left: 2em;
+}
+.story-item h3, p {
+  margin: 0;
+  padding: 0;
+  align-self: flex-start;
+}
+.story-item h3 {
+  margin-top: 0.5em;
+  font-size: 2em;
+}
+.story-item p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  width: 90%;
+}
+#one-content #footer {
+  display: flex;
+  background-color: #95a5a6;
+  padding: 2em;
+  justify-content: center;
+}
+#one-content #footer .social-item {
+  display: flex;
+  justify-content: center;
+  margin-left: 1em;
+  margin-right: 1em;
+  cursor: pointer;
+}
+
+#one-content #footer .social-item img {
+  width: 3em;
+  height: 3em;
+}
+
+#two-content {
+  flex-direction: column;
+}
+
+#two-content h1 {
+  text-align: left;
+  margin: 0;
+  color: #3498db;
+  font-size: 4em;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 1px;
+}
+
+#two-content h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+}
+#two-content p {
+  font-family: 'Open Sans', sans-serif;
+  width: 80%;
+}
+
+#two-content #program-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4em;
+}
+#two-content #program-container .program {
+  margin-bottom: 2em;
+}
+
+#three-content {
+  background-color: teal;
+}
+
+#four-content {
+  background-color: grey;
+}
