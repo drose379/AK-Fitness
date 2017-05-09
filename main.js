@@ -31,7 +31,7 @@ $(document).ready(function() {
 
     currentNav = $('#one-nav');
   } );
-
+  /*
   $('#two-nav').click( function() {
     currentContent.addClass('section-gone');
     $('#two-content').removeClass('section-gone');
@@ -65,6 +65,7 @@ $(document).ready(function() {
 
     currentNav = $('#four-nav');
   });
+  */
 
 
 });
