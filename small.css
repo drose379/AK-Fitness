@@ -4,3 +4,7 @@
 #about-info .col {
   margin-top: 2em;
 }
+
+h1 {
+  text-align: center !important;
+}

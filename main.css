@@ -186,7 +186,7 @@ p {
 }
 #one-content #success-stories h1 {
   text-align: left;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.5em;
 }
 #one-content #success-stories #story-container {
   max-height: 30vh;
@@ -257,9 +257,9 @@ p {
   padding-right: 3em;
 }
 #one-content #about h1 {
-  text-align: left !important;
+  text-align: left;
   width: 100%;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.5em;
 }
 #one-content #about #about-info {
   display: flex;
