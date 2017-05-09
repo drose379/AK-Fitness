@@ -234,7 +234,6 @@ section {
 #two-content {
   background-color: #d4d8d8;
   min-height: 85vh;
-  display: flex;
 
   justify-content: center;
   align-items: center;
