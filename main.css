@@ -182,11 +182,26 @@ section {
   flex-direction: column;
 }
 
+#program-container::before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+  z-index: -1;
+}
 #program-container {
+  z-index: 5000;
+  position: relative;
   margin: 0;
   padding-left: 4em;
   padding-right: 4em;
   padding-bottom: 2em;
+  background: url('https://static.pexels.com/photos/19936/breakfast-orange-lemon-oranges.jpg') no-repeat center center fixed;
 }
 
 #program-container h1 {
@@ -205,9 +220,11 @@ section {
   margin: 0;
   padding: 0;
   font-size: 1.5em;
+  color: #ecf0f1;
 }
 #program-container p {
   font-family: 'Open Sans', sans-serif;
+  color: #ecf0f1;
 }
 
 #program-container {
