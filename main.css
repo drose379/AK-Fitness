@@ -65,7 +65,7 @@ section {
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: 0.0;
+  opacity: 0.1;
   z-index: -1;
 }
 #one-content #bg-wrap {
@@ -73,8 +73,7 @@ section {
   /*
   background: url( 'res/bg-one.jpeg' ) no-repeat center center fixed;
   */
-  background: url( "res/black-pattern-2.png" ) no-repeat center center fixed;
-  background-size: cover;
+  background: url( "res/pink dust.png" ) fixed;
   z-index: 5000;
   padding-top: 1em;
 }
