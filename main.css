@@ -147,6 +147,7 @@ section {
   margin: 0;
   padding: 0;
   margin: 0.5em;
+  margin-left: 1.5em;
 }
 #story-container ul {
   display: flex;
@@ -203,10 +204,12 @@ section {
   z-index: 5000;
   position: relative;
   margin: 0;
-  padding-left: 4em;
-  padding-right: 4em;
+  padding-left: 2em;
+  padding-right: 2em;
   padding-bottom: 2em;
   background: url('https://static.pexels.com/photos/19936/breakfast-orange-lemon-oranges.jpg') no-repeat center center fixed;
+  display: flex;
+  flex-direction: column;
 }
 
 #program-container h1 {
@@ -233,12 +236,10 @@ section {
   color: #ecf0f1;
   font-size: 1.2em;
   margin-left: 0;
+  width: 90%;
+  text-align: justify;
 }
 
-#program-container {
-  display: flex;
-  flex-direction: column;
-}
 #program-container .program {
   margin-bottom: 4em;
 }
