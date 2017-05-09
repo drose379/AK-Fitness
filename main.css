@@ -84,6 +84,9 @@ section {
   font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 1px;
 }
+#one-content #bg-wrap h1 {
+  margin-bottom: 0;
+}
 #one-content .home-item {
   display: flex;
   flex-grow: 1;
@@ -116,6 +119,7 @@ section {
   border: 3px solid rgba(0,0,0,0);
   cursor: pointer;
   transition: 0.2s;
+  border-radius: 5%;
 }
 #one-content .home-item .wrap:hover {
   border: 3px solid #ecf0f1;
@@ -125,6 +129,9 @@ section {
 #one-content #success-stories {
   padding: 3em;
   background-color: #ecf0f1;
+}
+#one-content #success-stories h1 {
+  text-align: left;
 }
 #one-content #success-stories #story-container {
   max-height: 30vh;
@@ -148,7 +155,7 @@ section {
   margin: 0;
   padding: 0;
   margin: 0.5em;
-  margin-left: 1.5em;
+  margin-left: 1em;
 }
 
 #story-container .story-item h3 {
@@ -211,7 +218,7 @@ section {
 }
 
 #program-container h1 {
-  text-align: center;
+  text-align: left;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0.5em;
@@ -252,6 +259,10 @@ section {
   padding-left: 3em;
   padding-right: 3em;
 }
+#one-content #about h1 {
+  text-align: left !important;
+  width: 100%;
+}
 #one-content #about #about-info {
   display: flex;
   width: 95%;
@@ -272,6 +283,7 @@ section {
 #one-content #about #about-info p {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
+  text-align: justify;
 }
 
 #three-content {
