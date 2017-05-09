@@ -213,7 +213,6 @@ section {
 }
 #story-container .story-item p {
   font-family: 'Open Sans', sans-serif;
-  text-align: justify;
   max-height: 100%;
   overflow-y: scroll;
 }
@@ -274,7 +273,6 @@ section {
 #one-content #about #about-info p {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
-  text-align: justify;
 }
 
 
@@ -300,7 +298,6 @@ section {
 #two-content p {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  text-align: justify;
 }
 #two-content .program {
   margin-bottom: 2em;
@@ -317,6 +314,7 @@ section {
   border: 3px solid #DB0A5B;
   cursor: pointer;
   transition: 0.2s;
+  font-family: 'Josefin Sans', sans-serif;
 }
 #two-content #start-button-container div:hover {
   background-color: rgba( 219,10,91, 0.2 );
@@ -355,7 +353,6 @@ section {
 #four-content #contact-container p {
   margin: 0;
   padding: 0;
-  text-align: justify;
   margin-top: 1em;
   margin-left: 7%;
   margin-right: 7%;
