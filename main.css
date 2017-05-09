@@ -234,6 +234,10 @@ section {
 #two-content {
   background-color: #d4d8d8;
   min-height: 85vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
 }
 #two-content h1 {
   text-align: center;
@@ -272,6 +276,7 @@ section {
   background-color: rgba( 219,10,91, 0.2 );
 }
 #two-content #program-container {
+  width: 85%;
 }
 
 #three-content {
