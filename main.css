@@ -156,6 +156,7 @@ section {
 #story-container .story-item h3 {
   text-align: left;
   font-size: 1.4em;
+  letter-spacing: 1px;
 }
 #story-container .story-item p {
   font-family: 'Open Sans', sans-serif;
@@ -225,11 +226,13 @@ section {
   padding: 0;
   font-size: 1.5em;
   color: #DB0A5B;
+  letter-spacing: 1px;
 }
 #program-container p {
   font-family: 'Open Sans', sans-serif;
   color: #ecf0f1;
   font-size: 1.2em;
+  margin-left: 0;
 }
 
 #program-container {
