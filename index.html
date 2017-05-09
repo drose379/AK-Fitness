@@ -3,6 +3,9 @@
 <head>
   <link rel="stylesheet" type="text/css" href="main.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+  <script src="unslider-master/src/js/unslider.js"></script>
+  <link rel="stylesheet" href="unslider-master/dist/css/unslider.css" />
+  <link rel="stylesheet" href="unslider-master/dist/css/unslider-dots.css" />
   <script type="text/javascript" src="main.js"></script>
   <title>AK Fitness</title>
 </head>
@@ -36,54 +39,44 @@
       </div>
     </div>
 
-    <!-- NEED TO ADD ANOTHER SECTION INSIDE HERE (BUT WITHOUT WELCOME AREA BACKGROUND) WITH 'SUCCESS STORIES'
-
-          NEED TO REMOVE BACKGROUND FROM THE one-content SECTION AND ONTO THE ACTUAL CONTENT (HEAD AND TWO BOXES)
-
-          THEN PUT THE SUCCESS STORIES ITEMS BELOW IT WITHOUT THE BACKGROUND (JUST REG BODY BACKGROUND) BUT IN THE SAME MASTER SECTION
-    -->
     <div id="success-stories">
       <h1>SUCCESS STORIES</h1>
       <div id="story-container">
+        <ul>
+          <li>
+            <div class="story-item">
+              <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200x200&w=250&h=250" />
+              <div class="col">
+                <h3>NAME IS HERE</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed consectetur lorem. Fusce turpis quam, tincidunt nec sapien non, vehicula accumsan ex. Nunc at euismod nibh, egestas consectetur dolor. Sed quis suscipit nulla. Morbi eget est sodales, tincidunt felis quis, fermentum enim. Mauris pharetra venenatis turpis</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="story-item">
+              <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200x200&w=250&h=250" />
+              <div class="col">
+                <h3>NAME IS HERE</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed consectetur lorem. Fusce turpis quam, tincidunt nec sapien non, vehicula accumsan ex. Nunc at euismod nibh, egestas consectetur dolor. Sed quis suscipit nulla. Morbi eget est sodales, tincidunt felis quis, fermentum enim. Mauris pharetra venenatis turpis</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="story-item">
+              <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200x200&w=250&h=250" />
+              <div class="col">
+                <h3>NAME IS HERE</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed consectetur lorem. Fusce turpis quam, tincidunt nec sapien non, vehicula accumsan ex. Nunc at euismod nibh, egestas consectetur dolor. Sed quis suscipit nulla. Morbi eget est sodales, tincidunt felis quis, fermentum enim. Mauris pharetra venenatis turpis</p>
+              </div>
+            </div>
+          </li>
 
-        <div class="story-item">
-          <div class="row">
-            <img src="https://www.nataliejillfitness.com/wp-content/uploads/2016/12/63.0_Michelle-1-260x244.jpg" />
-            <img src="https://www.nataliejillfitness.com/wp-content/uploads/2016/11/5.1-Angelica-1-260x244.png" />
-          </div>
-          <h3>NAME ONE</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id augue facilisis, lacinia metus non, cursus ante. Phasellus et laoreet tellus, in ornare elit. Etiam porta metus eget quam laoreet dapibus. Vivamus in sollicitudin erat, non pellentesque dui. Nunc mattis volutpat luctus. Quisque bibendum quam dignissim sem consectetur tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-        </div>
+        </ul>
 
-        <div class="story-item">
-          <div class="row">
-            <img src="https://www.nataliejillfitness.com/wp-content/uploads/2016/12/69.0-Beth-2--260x244.jpg" />
-            <img src="https://www.nataliejillfitness.com/wp-content/uploads/2016/12/27.0-Rachel-260x244.png" />
-          </div>
-          <h3>NAME TWO</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id augue facilisis, lacinia metus non, cursus ante. Phasellus et laoreet tellus, in ornare elit. Etiam porta metus eget quam laoreet dapibus. Vivamus in sollicitudin erat, non pellentesque dui. Nunc mattis volutpat luctus. Quisque bibendum quam dignissim sem consectetur tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-        </div>
-
-        <div class="story-item">
-          <div class="row">
-            <img src="https://www.nataliejillfitness.com/wp-content/uploads/2016/12/69.0-Beth-2--260x244.jpg" />
-            <img src="https://www.nataliejillfitness.com/wp-content/uploads/2016/12/27.0-Rachel-260x244.png" />
-          </div>
-          <h3>NAME THREE</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id augue facilisis, lacinia metus non, cursus ante. Phasellus et laoreet tellus, in ornare elit. Etiam porta metus eget quam laoreet dapibus. Vivamus in sollicitudin erat, non pellentesque dui. Nunc mattis volutpat luctus. Quisque bibendum quam dignissim sem consectetur tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-        </div>
-
-        <div class="story-item">
-          <div class="row">
-            <img src="https://www.nataliejillfitness.com/wp-content/uploads/2016/12/63.0_Michelle-1-260x244.jpg" />
-            <img src="https://www.nataliejillfitness.com/wp-content/uploads/2016/11/5.1-Angelica-1-260x244.png" />
-          </div>
-          <h3>NAME FOUR</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id augue facilisis, lacinia metus non, cursus ante. Phasellus et laoreet tellus, in ornare elit. Etiam porta metus eget quam laoreet dapibus. Vivamus in sollicitudin erat, non pellentesque dui. Nunc mattis volutpat luctus. Quisque bibendum quam dignissim sem consectetur tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-        </div>
 
       </div>
     </div>
+
 
     <div id="program-container">
       <h1>OUR PROGRAMS</h1>
@@ -102,6 +95,14 @@
 
     </div>
 
+    <!--
+    <div id="success-stories">
+      <h1>SUCCESS STORIES</h1>
+    </div>
+
+
+  -->
+
 
     <div id="footer">
       <div class="social-item">
@@ -117,6 +118,7 @@
         <img src="res/instagram.png" />
       </div>
     </div>
+
 
   </section>
 
