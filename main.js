@@ -33,6 +33,22 @@ $(document).ready(function() {
     currentNav = $('#one-nav');
   } );
   $('#two-nav').click( function() {
+    toPrograms();
+  });
+  $('#four-nav').click( function() {
+    toContact();
+  });
+  $('#fat-loss').click( function() {
+    toPrograms();
+  } );
+  $('#strength').click( function() {
+    toPrograms();
+  } );
+  $('#to-contact').click( function() {
+    toContact();
+  } );
+
+  function toPrograms() {
     currentContent.addClass('section-gone');
     $('#two-content').removeClass('section-gone');
     currentContent = $('#two-content');
@@ -40,21 +56,9 @@ $(document).ready(function() {
     currentNav.removeClass('nav-current');
     currentNav = $('#two-nav');
     currentNav.addClass( 'nav-current' );
-  });
+  }
 
-  $('#three-nav').click( function() {
-    currentContent.addClass('section-gone');
-    $('#three-content').removeClass('section-gone');
-    currentContent = $('#three-content');
-
-    currentNav.removeClass( 'nav-current' );
-    currentNav = $('#three-nav');
-    currentNav.addClass('nav-current');
-
-    currentNav = $('#three-nav');
-  });
-
-  $('#four-nav').click( function() {
+  function toContact() {
     currentContent.addClass('section-gone');
     $('#four-content').removeClass('section-gone');
     currentContent = $('#four-content');
@@ -64,7 +68,7 @@ $(document).ready(function() {
     currentNav.addClass('nav-current');
 
     currentNav = $('#four-nav');
-  });
+  }
 
 
 });
