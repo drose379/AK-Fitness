@@ -135,6 +135,7 @@ section {
 #one-content #success-stories #story-container ul li {
   display: flex;
   justify-content: center;
+  padding-bottom: 1em;
 }
 
 #story-container .story-item {
