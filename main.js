@@ -3,12 +3,14 @@ var currentNav;
 
 $(document).ready(function() {
 
+  /*
   $('#story-container').unslider({
     autoplay: true,
     nav: false,
     arrows: false,
     dots: true
   });
+  */
 
   currentNav = $('#one-nav');
   currentContent = $('#one-content');

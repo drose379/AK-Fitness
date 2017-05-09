@@ -140,7 +140,8 @@ section {
 
 #story-container .story-item {
   display: flex;
-  width: 70%;
+  width: 85%;
+  margin-bottom: 1em;
 }
 #story-container .story-item h3,p {
   margin: 0;
@@ -154,9 +155,11 @@ section {
 }
 #story-container .story-item h3 {
   text-align: left;
+  font-size: 1.4em;
 }
 #story-container .story-item p {
   font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
   text-align: justify;
 }
 
@@ -206,7 +209,7 @@ section {
 }
 
 #program-container h1 {
-  text-align: left;
+  text-align: center;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0.5em;
@@ -226,6 +229,7 @@ section {
 #program-container p {
   font-family: 'Open Sans', sans-serif;
   color: #ecf0f1;
+  font-size: 1.2em;
 }
 
 #program-container {
