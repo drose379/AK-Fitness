@@ -3,6 +3,7 @@
 
 body {
   margin: 0;
+
 }
 
 nav {
@@ -193,63 +194,6 @@ section {
   flex-direction: column;
 }
 
-#program-container::before{
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.8;
-  z-index: -1;
-}
-#program-container {
-  z-index: 5000;
-  position: relative;
-  margin: 0;
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-bottom: 2em;
-  background: url('https://static.pexels.com/photos/19936/breakfast-orange-lemon-oranges.jpg') no-repeat center center fixed;
-  display: flex;
-  flex-direction: column;
-}
-
-#program-container h1 {
-  text-align: left;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0.5em;
-  padding: 0;
-  color: #DB0A5B;
-  font-size: 3em;
-  font-family: 'Josefin Sans', sans-serif;
-  letter-spacing: 1px;
-}
-
-#program-container h3 {
-  margin: 0;
-  padding: 0;
-  font-size: 1.5em;
-  color: #DB0A5B;
-  letter-spacing: 1px;
-  text-align: center;
-}
-#program-container li {
-  font-family: 'Open Sans', sans-serif;
-  color: #ecf0f1;
-  font-size: 1.4em;
-  margin-left: 0;
-  margin-right: 2em;
-  text-align: justify;
-}
-
-#program-container .program {
-  margin-bottom: 4em;
-  flex-grow: 1;
-}
 
 #one-content #about {
   display: flex;
@@ -284,6 +228,50 @@ section {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   text-align: justify;
+}
+
+
+#two-content {
+  background-color: #d4d8d8;
+  min-height: 85vh;
+}
+#two-content h1 {
+  text-align: center;
+  font-size: 3em;
+  color: #DB0A5B;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 1px;
+}
+#two-content h3 {
+  margin: 0;
+  padding: 0;
+  color: #DB0A5B;
+}
+#two-content p {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+}
+#two-content .program {
+  margin-bottom: 2em;
+}
+#two-content #start-button-container {
+  display: flex;
+  justify-content: center;
+}
+#two-content #start-button-container div {
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border: 3px solid #DB0A5B;
+  cursor: pointer;
+  transition: 0.2s;
+}
+#two-content #start-button-container div:hover {
+  background-color: rgba( 219,10,91, 0.2 );
+}
+#two-content #program-container {
 }
 
 #three-content {
