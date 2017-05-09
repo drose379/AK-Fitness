@@ -1,3 +1,6 @@
 #about-info {
   flex-direction: column;
 }
+#about-info .col {
+  margin-top: 2em;
+}
