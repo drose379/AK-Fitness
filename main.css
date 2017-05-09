@@ -73,7 +73,7 @@ section {
   /*
   background: url( 'res/bg-one.jpeg' ) no-repeat center center fixed;
   */
-  background: url( "res/pink dust.png" ) fixed;
+  background: url( "res/pink-dust.png" ) fixed;
   z-index: 5000;
   padding-top: 1em;
 }
@@ -220,6 +220,7 @@ section {
   padding: 2em;
   justify-content: center;
   background-color: #d4d8d8;
+  background: url('res/pink-dust.png') fixed;
 }
 #one-content #footer .social-item {
   display: flex;
