@@ -33,6 +33,10 @@ section {
   display: flex;
 }
 
+p {
+  line-height: 1.5;
+}
+
 .section-gone {
   display: none;
 }
@@ -276,6 +280,8 @@ section {
 #one-content #about #about-info p {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
+  line-height: 1.5em;
+  margin-bottom: 0.5em;
 }
 
 
