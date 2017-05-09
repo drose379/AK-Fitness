@@ -149,7 +149,6 @@ section {
 
 #story-container .story-item {
   display: flex;
-  width: 95%;
   margin-bottom: 1em;
 }
 #story-container .story-item h3,p {
@@ -209,7 +208,6 @@ section {
 }
 #one-content #about #about-info {
   display: flex;
-  width: 95%;
   margin: 0.5em;
   padding: 0;
 }
