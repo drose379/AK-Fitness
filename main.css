@@ -64,7 +64,7 @@ section {
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: 0.8;
+  opacity: 0.65;
   z-index: -1;
 }
 #one-content #bg-wrap {
