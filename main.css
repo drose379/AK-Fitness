@@ -8,9 +8,9 @@ body {
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: flex-start;
   color: black;
-  background-color:  #95a5a6;
+  background-color: #ecf0f1;
 }
 
 h3 {
@@ -75,6 +75,7 @@ section {
   background: url( "res/bg-two.jpeg" ) no-repeat center center fixed;
   z-index: 5000;
   padding: 3em;
+  padding-top: 1em;
 }
 
 #one-content h1 {
@@ -124,6 +125,7 @@ section {
 
 #one-content #success-stories {
   padding: 3em;
+  background-color: #ecf0f1;
 }
 #one-content #success-stories #story-container {
 
@@ -167,9 +169,9 @@ section {
 
 #one-content #footer {
   display: flex;
-  background-color: #95a5a6;
   padding: 2em;
   justify-content: center;
+  background-color: #ecf0f1;
 }
 #one-content #footer .social-item {
   display: flex;
@@ -230,11 +232,12 @@ section {
   font-size: 1.5em;
   color: #DB0A5B;
   letter-spacing: 1px;
+  text-align: center;
 }
-#program-container p {
+#program-container li {
   font-family: 'Open Sans', sans-serif;
   color: #ecf0f1;
-  font-size: 1.2em;
+  font-size: 1.4em;
   margin-left: 0;
   margin-right: 2em;
   text-align: justify;
@@ -242,6 +245,7 @@ section {
 
 #program-container .program {
   margin-bottom: 4em;
+  flex-grow: 1;
 }
 
 #three-content {
