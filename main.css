@@ -281,17 +281,20 @@ p {
   margin-bottom: 4em;
   padding-left: 3em;
   padding-right: 3em;
+  align-items: center;
 }
 #one-content #about h1 {
   text-align: left;
   width: 100%;
   margin-top: 0;
-  max-width: 1500px;
+  margin: 0;
   font-size: 2.5em;
 }
 #one-content #about #about-info {
   display: flex;
   margin: 0.5em;
+  margin-left: 0;
+  margin-right: 0;
   padding: 0;
   max-width: 1500px;
 }
@@ -304,7 +307,7 @@ p {
 #one-content #about #about-info h3 {
   margin: 0;
   padding: 0;
-  font-size: 2em;
+  font-size: 1.4em;
 }
 #one-content #about #about-info p {
   font-family: 'Open Sans', sans-serif;
