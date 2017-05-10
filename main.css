@@ -81,6 +81,14 @@ p {
   background: url( "res/pink-dust.png" ) fixed;
   z-index: 5000;
   padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+#one-content #bg-wrap .row {
+  max-width: 1500px;
+  width: 100%;
+  align-self: center;
 }
 
 #one-content h1 {
@@ -181,7 +189,8 @@ p {
 }
 
 #one-content #success-stories {
-  padding: 3em;
+  padding-left: 3em;
+  padding-right: 3em;
   padding-bottom: 0;
   background-color: #ecf0f1;
   display: flex;
@@ -268,14 +277,14 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 2em;
+  margin-top: 4em;
+  margin-bottom: 4em;
   padding-left: 3em;
   padding-right: 3em;
 }
 #one-content #about h1 {
   text-align: left;
   width: 100%;
-  margin-bottom: 0.5em;
   margin-top: 0;
   max-width: 1500px;
   font-size: 2.5em;
