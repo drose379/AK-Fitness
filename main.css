@@ -439,6 +439,11 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
+#four-content #contact-container img {
+  max-width: 25%;
+  max-height: 25%;
+}
+
 #four-content #contact-container #top-input-container {
   margin-top: 2em;
   width: 100%;
