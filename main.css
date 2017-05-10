@@ -190,7 +190,7 @@ p {
 #one-content #success-stories {
   padding-left: 4em;
   padding-right: 4em;
-  padding-bottom: 0;
+  margin-bottom: 2em;
   background-color: #F5F5F5;
   display: flex;
   justify-content: center;
@@ -276,7 +276,7 @@ p {
   margin-bottom: 4em;
   padding-left: 4em;
   padding-right: 4em;
-  align-items: center;
+  align-items: center
 }
 #one-content #about h1 {
   text-align: left;
