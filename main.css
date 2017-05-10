@@ -85,7 +85,7 @@ p {
 }
 
 #one-content #bg-wrap .row {
-  max-width: 1500px;
+  max-width: 1400px;
   width: 100%;
   align-self: center;
 }
@@ -201,12 +201,12 @@ p {
   text-align: left;
   margin-bottom: 0.5em;
   width: 100%;
-  max-width: 1500px;
+  max-width: 1400px;
   font-size: 2.5em;
 }
 
 #one-content #success-stories #story-container {
-  max-width: 1500px;
+  max-width: 1400px;
 }
 
 #one-content #success-stories #story-container img {
@@ -281,10 +281,26 @@ p {
 #one-content #about h1 {
   text-align: left;
   width: 100%;
-  max-width: 1500px;
+  max-width: 1400px;
   margin-top: 0;
   margin: 0;
   font-size: 2.5em;
+}
+#one-content #desc {
+  margin-bottom: 2em !important;
+}
+#one-content #about .bullet-item {
+  margin-bottom: 1.5em;
+  align-items: center;
+}
+#one-content #about .bullet-item p {
+  font-size: 1.2em;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+#one-content #about .bullet-item img {
+  width: 2.5em;
+  height: 2.5em;
 }
 #one-content #about #about-info {
   display: flex;
@@ -292,7 +308,7 @@ p {
   margin-left: 0;
   margin-right: 0;
   padding: 0;
-  max-width: 1500px;
+  max-width: 1400px;
 }
 #one-content #about #about-info img {
   padding: 0;
@@ -304,7 +320,7 @@ p {
 #one-content #about #about-info h3 {
   margin: 0;
   padding: 0;
-  font-size: 1.4em;
+  font-size: 1.6em;
 }
 #one-content #about #about-info p {
   font-family: 'Open Sans', sans-serif;
@@ -399,7 +415,7 @@ p {
   background-color: rgba( 219,10,91, 0.2 );
 }
 #two-content #program-container {
-  max-width: 1500px;
+  max-width: 1400px;
   display: flex;
 }
 
@@ -411,9 +427,10 @@ p {
 }
 
 #four-content #contact-container {
-  max-width: 1500px;
+  max-width: 1400px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #contact-container .col {
