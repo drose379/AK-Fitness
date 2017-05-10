@@ -353,7 +353,10 @@ p {
   border: 3px solid #DB0A5B;
   border-radius: 15px;
   align-items: center;
-  padding: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   transition: 0.2s;
   cursor: pointer;
 }

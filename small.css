@@ -8,3 +8,7 @@
 h1 {
   text-align: center !important;
 }
+
+#two-content #program-container {
+  flex-direction: column;
+}
