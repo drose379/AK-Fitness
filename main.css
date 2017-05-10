@@ -440,8 +440,8 @@ p {
 }
 
 #four-content #contact-container img {
-  max-width: 25%;
-  max-height: 25%;
+  width: 375px;
+  height: auto;
 }
 
 #four-content #contact-container #top-input-container {
