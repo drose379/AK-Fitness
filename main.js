@@ -17,7 +17,7 @@ $(document).ready(function() {
 
   currentNav.addClass('nav-current');
 
-  $('#two-content').addClass('section-gone');
+  $('#one-content').addClass('section-gone');
   $('#three-content').addClass('section-gone');
   $('#four-content').addClass('section-gone');
 

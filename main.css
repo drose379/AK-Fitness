@@ -336,9 +336,44 @@ p {
 #two-content p {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  margin-bottom: 2em;
 }
 #two-content .program {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+#two-content .program .pricing-button {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  border: 3px solid #DB0A5B;
+  border-radius: 15px;
+  align-items: center;
+  padding: 1em;
+  transition: 0.2s;
+  cursor: pointer;
+}
+#two-content .program .pricing-button:hover {
+  background-color: rgba( 219,10,91, 0.2 );
+}
+#two-content .program .pricing-button h2, h4 {
+  margin: 0;
+  padding: 0;
+}
+#two-content .program .pricing-button h2 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+#two-content .program .pricing-button h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+#two-content .program .pricing-button img {
+  width: 2.5em;
+  height: 2.5em;
+  margin-right: 0.5em;
 }
 #two-content #start-button-container {
   display: flex;
@@ -359,6 +394,7 @@ p {
 }
 #two-content #program-container {
   max-width: 1500px;
+  display: flex;
 }
 
 #four-content {
