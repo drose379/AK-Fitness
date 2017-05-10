@@ -56,7 +56,7 @@ p {
 
 #one-content {
   flex-direction: column;
-  background-color: #ecf0f1;
+  background-color: #F5F5F5;
   padding: 0;
 }
 
@@ -191,7 +191,7 @@ p {
   padding-left: 4em;
   padding-right: 4em;
   padding-bottom: 0;
-  background-color: #ecf0f1;
+  background-color: #F5F5F5;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -315,7 +315,7 @@ p {
 
 
 #two-content {
-  background-color: #d4d8d8;
+  background-color: #F5F5F5;
   min-height: 85vh;
 
   justify-content: center;
@@ -349,9 +349,8 @@ p {
 #two-content .program .pricing-button {
   display: flex;
   flex-direction: row;
-  align-self: flex-start;
+  align-self: center;
   border: 3px solid #DB0A5B;
-  border-radius: 15px;
   align-items: center;
   padding-left: 1em;
   padding-right: 1em;
@@ -359,13 +358,17 @@ p {
   padding-bottom: 0.5em;
   transition: 0.2s;
   cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
 }
+#two-content .program:nth-child(2) .pricing-button {
+  align-self: center;
+}
+
 #two-content .program .pricing-button:hover {
   background-color: rgba( 219,10,91, 0.2 );
 }
-#two-content .program .pricing-button h2, h4 {
-  margin: 0;
-  padding: 0;
+#two-content .program .pricing-button span {
+  font-size: 1.2em;
 }
 #two-content .program .pricing-button h2 {
   font-family: 'Josefin Sans', sans-serif;
@@ -401,7 +404,7 @@ p {
 }
 
 #four-content {
-  background-color: #d4d8d8;
+  background-color: #F5F5F5;
   min-height: 85vh;
   justify-content: center;
   align-items: center;
