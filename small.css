@@ -12,3 +12,7 @@ h1 {
 #two-content #program-container {
   flex-direction: column;
 }
+
+#two-content #program-container .program .more-info {
+  flex-direction: column;
+}
