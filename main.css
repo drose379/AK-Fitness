@@ -296,7 +296,7 @@ p {
 #one-content #about .bullet-item p {
   font-size: 1.2em;
   margin-top: 0 !important;
-  margin-bottom: 0 !important;
+  margin-bottom: 0.5em;
 }
 #one-content #about .bullet-item img {
   width: 2.5em;
@@ -326,97 +326,117 @@ p {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   line-height: 1.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 
 
 #two-content {
   background-color: #F5F5F5;
   min-height: 85vh;
-
   justify-content: center;
   align-items: center;
 }
+
 #two-content h1 {
-  text-align: center;
   font-size: 3em;
   color: #DB0A5B;
   font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 1px;
-}
-#two-content h3 {
   margin: 0;
-  padding: 0;
-  color: #DB0A5B;
-}
-#two-content p {
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  text-align: justify;
-  margin-bottom: 2em;
-}
-#two-content .program {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 2em;
-  margin-left: 2em;
-  margin-right: 2em;
-}
-#two-content .program .pricing-button {
-  display: flex;
-  flex-direction: row;
-  align-self: center;
-  border: 3px solid #DB0A5B;
-  align-items: center;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  transition: 0.2s;
-  cursor: pointer;
-  font-family: 'Josefin Sans', sans-serif;
-}
-#two-content .program:nth-child(2) .pricing-button {
-  align-self: center;
+  margin-bottom: 0.5em;
 }
 
+
+
+#two-content #program-container {
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#two-content #program-container .program {
+  flex-grow: 1;
+  padding: 2em;
+  background-color: #dcdcdc;
+  margin-bottom: 2em;
+}
+
+
+#two-content #program-container .program .more-info {
+  display: flex;
+}
+
+.program h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+.program h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #DB0A5B;
+}
+
+.program p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+}
+
+.program h4 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.program ul {
+  margin: 0;
+}
+
+.program .program-desc-box {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.program .program-desc-box:nth-child(1) {
+  margin-right: 1em;
+}
+.program .program-desc-box:nth-child(2) {
+  margin-left: 1em;
+}
+
+.program #buy-button-container {
+  display: flex;
+}
+.program .pricing-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 3px solid #DB0A5B;
+  padding-left: 2em;
+  padding-right: 2em;
+  cursor: pointer;
+  transition: 0.2s;
+}
 #two-content .program .pricing-button:hover {
   background-color: rgba( 219,10,91, 0.2 );
 }
+
+.program .pricing-button img {
+  width: 2.5em;
+  height: 2.5em;
+}
+
 #two-content .program .pricing-button span {
   font-size: 1.2em;
+  margin: 0;
 }
 #two-content .program .pricing-button h2 {
   font-family: 'Josefin Sans', sans-serif;
 }
 #two-content .program .pricing-button h4 {
   font-family: 'Open Sans', sans-serif;
-}
-#two-content .program .pricing-button img {
-  width: 2.5em;
-  height: 2.5em;
-  margin-right: 0.5em;
-}
-#two-content #start-button-container {
-  display: flex;
-  justify-content: center;
-}
-#two-content #start-button-container div {
-  padding-left: 3em;
-  padding-right: 3em;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  border: 3px solid #DB0A5B;
-  cursor: pointer;
-  transition: 0.2s;
-  font-family: 'Josefin Sans', sans-serif;
-}
-#two-content #start-button-container div:hover {
-  background-color: rgba( 219,10,91, 0.2 );
-}
-#two-content #program-container {
-  max-width: 1400px;
-  display: flex;
+  margin: 0;
 }
 
 #four-content {
