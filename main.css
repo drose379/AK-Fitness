@@ -428,6 +428,7 @@ p {
 .program .pricing-button img {
   width: 2.5em;
   height: 2.5em;
+  margin-right: 0.5em;
 }
 
 #two-content .program .pricing-button span {
