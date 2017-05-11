@@ -359,7 +359,7 @@ p {
   max-width: 1400px;
   display: flex;
   flex-direction: column;
-  max-width: 900px;
+  max-width: 80%;
   font-family: 'Open Sans', sans-serif;
 }
 
