@@ -15,7 +15,7 @@ nav {
   flex-direction: row;
   justify-content: flex-end;
   color: #ecf0f1;
-  background: url('res/pink-dust.png');
+  background: url('res/pink-dust.png') fixed;
 }
 
 h3 {
