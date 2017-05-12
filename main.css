@@ -457,14 +457,15 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 3px solid rgba( 219,10,91, 0.2 );
+  background-color: rgba( 219,10,91, 0.5 );
+  box-shadow: 0 8px 6px -6px rgba(210,10,91,0.3);
   padding-left: 2em;
   padding-right: 2em;
   cursor: pointer;
   transition: 0.2s;
 }
 #two-content .program .pricing-button:hover {
-  background-color: rgba( 219,10,91, 0.2 );
+  /*box-shadow: 0 10px 12px -3px rgba(210,10,91,0.5);*/
 }
 
 .program .pricing-button img {
