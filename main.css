@@ -420,7 +420,7 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 3px solid #DB0A5B;
+  border: 3px solid rgba( 219,10,91, 0.2 );
   padding-left: 2em;
   padding-right: 2em;
   cursor: pointer;
