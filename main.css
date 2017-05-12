@@ -14,19 +14,28 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  align-items: center;
   color: #ecf0f1;
   background: url('res/pink-dust.png') fixed;
+  padding: 0;
+  margin: 0;
+}
+
+nav h3 {
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
 }
 
 h3 {
+  margin-top: 0;
   margin-left: 2em;
   margin-right: 2em;
-  padding: 0.5em;
+  padding: 0;
   cursor: pointer;
   font-family: 'Josefin Sans', sans-serif;
 }
 
-nav h3:nth-child(4) {
+nav h3:nth-child(3) {
   margin-right: 4em;
 }
 
@@ -81,18 +90,13 @@ p {
   /*
   background: url( 'res/bg-one.jpeg' ) no-repeat center center fixed;
   */
-  padding-top: 1em;
   background: url( "res/pink-dust.png" ) fixed;
   z-index: 5000;
   display: flex;
   flex-direction: column;
+  padding-bottom: 3%;
 }
 
-#one-content #bg-wrap .row {
-  max-width: 1400px;
-  width: 100%;
-  align-self: center;
-}
 
 #one-content h1 {
   text-align: center;
@@ -102,11 +106,36 @@ p {
   letter-spacing: 1px;
   margin: 0;
   padding: 0;
-  margin-top: 2%;
+  margin-bottom: 0.5em;
 }
 #one-content #bg-wrap h1 {
-  margin-bottom: 0;
+  padding-top: 2%;
 }
+#one-content #bg-wrap h2 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ecf0f1;
+  font-size: 2em;
+}
+
+#one-content #bg-wrap #hero-our-programs {
+  align-self: center;
+  border: 3px solid rgba( 219,10,91, 1 );
+}
+
+#one-content #bg-wrap #hero-our-programs h5 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1em;
+  color: white;
+  padding: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin: 0;
+}
+
 /**
 #one-content .home-item {
   display: flex;
@@ -148,14 +177,18 @@ p {
 }
 */
 
+#one-content .row {
+  max-width: 1400px;
+  width: 100%;
+  align-self: center;
+  margin-top: 4em;
+}
 #one-content .home-item {
   flex-grow: 1;
   flex-basis: 0;
   display: flex;
   margin-left: 0.5em;
   margin-right: 0.5em;
-  margin-top: 2em;
-  margin-bottom: 3%;
 }
 #one-content .home-item img {
   width: 3em;
@@ -179,12 +212,16 @@ p {
   font-family: 'Open Sans', sans-serif;
   color: #ecf0f1;
   cursor: pointer;
-  border: 3px solid rgba(236, 240, 241, 0.2);
+  border: 3px solid rgba(236, 240, 241, 0.0);
+  background-color: rgba(219, 10, 91, 0.7);
   transition: 0.2s;
+  box-shadow: 0 8px 6px -6px rgba(210,10,91,0.5);
 }
 #one-content .home-item .wrap:hover {
-  border: 3px solid #ecf0f1;
-  background-color: rgba(219, 10, 91, 0.7);
+  box-shadow: 0 10px 12px -3px rgba(210,10,91,0.5);
+}
+#one-content .home-item .wrap:active {
+
 }
 
 #one-content .home-item:nth-child(1) {
