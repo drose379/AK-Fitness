@@ -335,19 +335,8 @@ p {
 #one-content #desc {
   margin-bottom: 2em !important;
 }
-#one-content #about .bullet-item {
-  margin-bottom: 1.5em;
-  align-items: center;
-}
-#one-content #about .bullet-item p {
-  font-size: 1.2em;
-  margin-top: 0 !important;
-  margin-bottom: 0.5em;
-}
-#one-content #about .bullet-item img {
-  width: 2.5em;
-  height: 2.5em;
-}
+
+
 #one-content #about #about-info {
   display: flex;
   margin: 0.5em;
@@ -360,7 +349,7 @@ p {
   padding: 0;
   margin: 0;
   max-width: 25%;
-  margin-right: 1em;
+  /*margin-right: 1em;*/
   align-self: center
 }
 #one-content #about #about-info h3 {
@@ -368,12 +357,14 @@ p {
   padding: 0;
   font-size: 1.7em;
   margin-bottom: 0.5em;
+  margin-left: 2%;
 }
 #one-content #about #about-info p {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   line-height: 1.5em;
   margin-bottom: 1em;
+  margin-left: 2%;
 }
 
 
