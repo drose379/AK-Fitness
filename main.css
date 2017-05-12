@@ -47,6 +47,7 @@ section {
 
 p {
   line-height: 1.5;
+  font-size: 1.2em;
 }
 
 .section-gone {
@@ -284,7 +285,7 @@ p {
 
 #story-container .story-item h3 {
   text-align: left;
-  font-size: 1.4em;
+  font-size: 1.7em;
   letter-spacing: 1px;
 }
 #story-container .story-item p {
@@ -365,7 +366,8 @@ p {
 #one-content #about #about-info h3 {
   margin: 0;
   padding: 0;
-  font-size: 1.6em;
+  font-size: 1.7em;
+  margin-bottom: 0.5em;
 }
 #one-content #about #about-info p {
   font-family: 'Open Sans', sans-serif;
