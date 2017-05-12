@@ -452,6 +452,7 @@ p {
 
 .program #buy-button-container {
   display: flex;
+  justify-content: flex-end;
 }
 .program .pricing-button {
   display: flex;
